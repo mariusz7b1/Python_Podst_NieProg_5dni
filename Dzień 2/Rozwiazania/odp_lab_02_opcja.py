@@ -1,7 +1,7 @@
 """
 Wylicznie czasu do przepełnienia zbiornika retencyjnego
 Przykład realizowany dla zbiornika Turawa
-Sugestia modyfikacji, możn apodawać procent napełnienia zbiornika i ewentualnie 
+Sugestia modyfikacji, można podawać procent napełnienia zbiornika i ewentualnie 
 zabezpieczyć program przed podawaniem błednych danych 
 """
 # Stała pojemność zbiornika np. Turawa (w m³)
@@ -11,7 +11,8 @@ POJEMNOSC_ZBIORNIKA = 108_000_000
 stan_napelnienia = int(
     input("Podaj aktualny stan napełnienia zbiornika (w mln m³): "))
 
-stan_napelnienia *= 1_000_000
+stan_napelnienia = stan_napelnienia * 1_000_000
+
 # Instrukcja sprawdzająca poprawność stanu napełnienia
 if stan_napelnienia > POJEMNOSC_ZBIORNIKA:
     print(f"Aktualny stan nie może być większy niż {POJEMNOSC_ZBIORNIKA} m³.")
