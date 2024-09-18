@@ -8,8 +8,11 @@ system('cls')
 def pokaz_arumenty(*args):
     print(type(args))
     print(f"Przekazano {len(args)} argumentów")
+    print("Kolejne argumenty to : ")
+    licznik = 0
     for war in args:
-        print(war, end=",")
+        print(f"Argument {licznik} : {war}")
+        licznik += 1
     print()
     # koniec funkcji
 
