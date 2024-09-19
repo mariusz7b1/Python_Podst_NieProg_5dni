@@ -58,7 +58,8 @@ def main():
     lst_text = ["Akta generała ma mała renegatka",
                 " Kobyła ma mały bok", "Malajalam", "13431", "mariusz"]
     for t1 in lst_text:
-        print(f"Czy: {check_palimdrom_v1(t1):33} jest palimdormem ? :{1}")
+        print(
+            f"Czy: tekst: {t1:33} jest palimdormem ? :{check_palimdrom_v2(t1)}")
 
     lst_text = ["optyczny", "poczytny", "chityna",
                 "hiacynt", "alergia", "galeria"]
