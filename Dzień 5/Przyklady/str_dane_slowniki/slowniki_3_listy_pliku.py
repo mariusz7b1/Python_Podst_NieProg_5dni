@@ -33,6 +33,8 @@ def main():
 
         lista_ludzi.append(rekord)
 
+    pass
+
 
 if __name__ == "__main__":
     main()
