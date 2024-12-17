@@ -12,6 +12,7 @@ ROK_DO = 2070
 while True:  # Główna petla
     while True:  # Walidacja danych
         str1 = f"Wprowadź rok z zakresu od {ROK_OD} do {ROK_DO} ? "
+        print(str1, end="")
         rok = input()
         if rok.isdigit():
             rok = int(rok)
