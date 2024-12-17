@@ -44,5 +44,3 @@ for i in range(-3, 10, -2):  # od do liczby ujemne
     print(i)
 
 
-for i in range(5):
-    print(f"{i} -magda")
