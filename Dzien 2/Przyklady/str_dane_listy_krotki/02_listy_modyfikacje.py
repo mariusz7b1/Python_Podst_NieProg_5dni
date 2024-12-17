@@ -47,9 +47,9 @@ else:
     print(f"wartość {var1} jest na liście")
 
 #  sort , reverse
-lst2 = [1, 3, 9, 4, 5, 2]
+lst2 = [1, 3, 9, 4, 5, 2, 11]
 print(lst2)
-lst2.sort()
+lst2.sort(reverse=True)
 print(lst2)
 
 lst2.reverse()

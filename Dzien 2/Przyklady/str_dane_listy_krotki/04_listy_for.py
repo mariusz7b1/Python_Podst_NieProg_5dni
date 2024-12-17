@@ -10,6 +10,6 @@ for kolor in moja_lista:
 print("\n\n")
 
 
-#  z wyk indeksu
+#  z wyk indeksu dla koneserów
 for i in range(0, len(moja_lista)):
     print(moja_lista[i], end=" ")
