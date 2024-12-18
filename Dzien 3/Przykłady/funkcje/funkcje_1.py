@@ -3,7 +3,7 @@ Funkcje - podstawy
 """
 import os
 os.system("cls")
-
+# pylint: disable=C0116
 
 def pozdrowienia(imie):
     print(f"witaj {imie}. Jak się masz ?")
@@ -22,7 +22,6 @@ def powitanie():
     return imie
 
 
-pass
 imie_kursanta = powitanie()
 pozdrowienia(imie_kursanta)
 
