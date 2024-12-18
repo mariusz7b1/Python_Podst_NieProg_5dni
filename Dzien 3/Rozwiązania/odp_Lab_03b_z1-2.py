@@ -5,7 +5,7 @@ Zadanie 1  i 2 z Laboratorium 03b
 from os import system
 system('cls')
 
-# Zadanie 5
+# Zadanie 1
 s1 = "Ala ma kota"
 lst1 = list(s1)
 print(lst1)
@@ -19,7 +19,7 @@ for ele in lst1:
 print()
 print(f"litera 'a' wystapia w ciagu {lst1.count('a')} razy")
 
-# Zadanie 6
+# Zadanie 2
 s1 = input("Podaj zdanie ")
 litera = input("Podaj literę ")
 print(f"litera {litera} wystapia w ciagu {s1.count(litera)} razy")
