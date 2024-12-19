@@ -1,22 +1,33 @@
+"""
+Listy i słowniki w Pythonie
+"""
+
+import csv
 from os import system
-from random import randint
+from sys import exit as exit_prog
 system("cls")
 
-# deklaracja słownika i listy
-lista_nazwisk = []
+# odczyt z pliku
+file_in = 'c:\\dane\\users.csv'
 
-# wczytywanie danych
-zm_robocza = 1
 
-while zm_robocza <= 10:
-    # odczytaj z pliku kolejną linie
+try:
+    f_in = open(file_in, "rt", encoding="utf-8")
+except IOError:
+    print("Błąd odczytu/zapisu z/do pliku:")
+    exit_prog()
+
+
+reader = csv.reader(f_in, delimiter=',',)
+lista_osob = []
+for rekord in reader:
     dct = {}
-    dct["imie"] = "Jan_" + str(zm_robocza)          # najcześciej dane z pliku
-    dct["nazwisko"] = "Nowak_" + str(zm_robocza)
-    dct["wiek"] = randint(20, 90)
-    lista_nazwisk.append(dct)
-    zm_robocza += 1
+    # print(id(dct))
+    # odczytaj z pliku kolejną linie
+    dct["imie"] = rekord[4]
+    dct["nazwisko"] = rekord[5]
+    dct["miasto"] = rekord[6]
+    lista_osob.append(dct)
 
-record = (lista_nazwisk[-2])["nazwisko"]
-
-print(record)
+print(lista_osob[1])
+f_in.close()
