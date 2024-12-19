@@ -1,9 +1,3 @@
-Name,userPrincipalName,passwordProfile,accountEnabled,givenName,surname,city
-Karina Kornek,karina.kornek@keja.msft,KarKor467274#!,True,Karina,Kornek,Goleniów
-Fryderyk Piwowarek,fryderyk.piwowarek@keja.msft,FryPiw429637#!,True,Fryderyk,Piwowarek,Mikołów
-Cezary Iskierka,cezary.iskierka@keja.msft,CezIsk445352#!,True,Cezary,Iskierka,Wałcz
-Józef Potoczek,józef.potoczek@keja.msft,JózPot652428#!,True,Józef,Potoczek,Jarosław
-Mieszko Tolak,mieszko.tolak@keja.msft,MieTol425154#!,True,Mieszko,Tolak,Żagań
 Daniel Pyrkosz,daniel.pyrkosz@keja.msft,DanPyr813573#!,True,Daniel,Pyrkosz,Augustów
 Kaja Krzysiek,kaja.krzysiek@keja.msft,KajKrz264441#!,True,Kaja,Krzysiek,Grudziądz
 Norbert Pyś,norbert.pyś@keja.msft,NorPyś167429#!,True,Norbert,Pyś,Łódź
@@ -12,7 +6,3 @@ Konstanty Roda,konstanty.roda@keja.msft,KonRod219369#!,True,Konstanty,Roda,Jawor
 Justyna Kominiak,justyna.kominiak@keja.msft,JusKom325663#!,True,Justyna,Kominiak,Bielsko-Biała
 Rafał Myszak,rafał.myszak@keja.msft,RafMys453159#!,True,Rafał,Myszak,Nowa Sól
 Artur Kotala,artur.kotala@keja.msft,ArtKot792831#!,True,Artur,Kotala,Zawiercie
-Gabriel Raszkiewicz,gabriel.raszkiewicz@keja.msft,GabRas132912#!,True,Gabriel,Raszkiewicz,Bełchatów
-Gaja Dynak,gaja.dynak@keja.msft,GajDyn480364#!,True,Gaja,Dynak,Częstochowa
-Sylwia Bieszke,sylwia.bieszke@keja.msft,SylBie273379#!,True,Sylwia,Bieszke,Kraśnik
-Anastazja Batóg,anastazja.batóg@keja.msft,AnaBat165374#!,True,Anastazja,Batóg,Świecie
