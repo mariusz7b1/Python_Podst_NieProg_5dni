@@ -10,7 +10,7 @@ SAMOGLOSKI = "aeiouyAEIOUY"
 def main():
     in_file_name = "ksiazka.txt"
     out_file_name = "raport-b.txt"
-    file_path = "d:\\dane\\"
+    file_path = "c:\\dane\\"
 
     try:
         # otwarcie pliku do odczytu
@@ -33,8 +33,6 @@ def main():
     liczba_samoglosek = 0
     for samogloska in SAMOGLOSKI:
         liczba_samoglosek = liczba_samoglosek + tekst.count(samogloska)
-
-    # Otwarcie pliku do zapisu
 
     f_out.write(f"Liczba wystąpień litery 'a': {liczba_a}\n")
     f_out.write(f"Liczba różnych znaków: {len(rozne_znaki)}\n")

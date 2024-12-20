@@ -14,7 +14,7 @@ def main():
     # scieżka i nazwy plików
     in_file_name = "ksiazka.txt"
     out_file_name = "raport-c.txt"
-    file_path = "d:\\dane\\"
+    file_path = "c:\\dane\\"
 
     try:
         # otwarcie pliku do odczytu
@@ -43,10 +43,6 @@ def main():
 
         for samogloska in SAMOGLOSKI:
             liczba_samoglosek += tekst.count(samogloska)
-
-    print("Liczba wystąpień litery 'a':", liczba_a)
-    print("Liczba różnych znaków:", len(rozne_znaki))
-    print("Liczba wystąpień samogłosek:", liczba_samoglosek)
 
     f_out.write(f"Liczba wystąpień litery 'a': {liczba_a}\n")
     f_out.write(f"Liczba różnych znaków: {len(rozne_znaki)}\n")
