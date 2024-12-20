@@ -25,7 +25,3 @@ if __name__ == "__main__":
     # testowanie modułu
     imie = powitanie()
     pozdrowienia(imie)
-
-else:
-    print("Jestem modułem")
-    print(__name__)
