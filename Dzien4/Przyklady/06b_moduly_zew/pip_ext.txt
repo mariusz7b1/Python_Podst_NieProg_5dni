@@ -1,0 +1,15 @@
+#Instalacja modułu zewnetrznego np. matplotlib
+#cmd
+pip install matplotlib
+pip list 
+
+#python
+import matplotlib
+print(matplotlib.__version__)
+
+#upgrade cmd
+pip install --upgrade matplotlib
+
+#upgrade pip
+python.exe -m pip install --upgrade pip
+
