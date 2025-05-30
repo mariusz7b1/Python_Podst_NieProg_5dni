@@ -38,8 +38,8 @@ def read_float(prompt: str, minimum: int, maximum: int) -> float:
         """
 
     assert isinstance(prompt, str), "prompt musi być typu str"
-    assert isinstance(minimum, int), "minimum musi być typu int"
-    assert isinstance(maximum, int), "maximum musi by typ int"
+    assert isinstance(minimum, (int, float)), "minimum musi być typu float"
+    assert isinstance(maximum, (int, float)), "maximum musi by typ float"
 
     prompt = f"{prompt} z zakresu od {minimum}  do {maximum} "
     while True:

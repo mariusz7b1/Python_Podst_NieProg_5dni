@@ -1,3 +1,4 @@
+# pylint: disable=C0116,C0103
 """"wymaga posiadania zewnetrznego pakietu  
 pip install matplotlib
 import matplotlib
@@ -6,9 +7,9 @@ print(matplotlib.__version__)
 
 """
 
-import matplotlib.pyplot as plt
 from sys import exit as exit_prog
 from os import system
+import matplotlib.pyplot as plt
 # czyszczenie ekranu
 system("cls")
 
